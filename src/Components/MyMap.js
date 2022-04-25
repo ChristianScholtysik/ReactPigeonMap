@@ -8,7 +8,7 @@ import 'react-tabs/style/react-tabs.css';
 export default function MyMap({lat, lng}) {
     const [center, setCenter] = useState([lat, lng])
     const [zoom, setZoom] = useState(12)
-    const [hue, setHue] = useState(0)
+    const [hue] = useState(0)
     const color = `hsl(${hue % 360}deg 29% 90%)`
   
     return (
