@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="one">
       <header className="header">
-       <h1>Christians PigeonMapProject</h1>
+       <h1>PigeonMapProject</h1>
        <MyTabs /> 
       </header>
     <h5>Christian Scholtysik | 2022</h5>

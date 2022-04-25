@@ -3,7 +3,6 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import MyMap from "./MyMap";
 import logo from './img/BIE_Logo_gruen.png';
-import logo2 from './img/BIE_Logo_blau.png';
 import logo3 from './img/stockholm-sweden-logo-black-and-white.png';
 import logo4 from './img/iceland_logo.png';
 
@@ -14,9 +13,9 @@ function MyTabs () {
         <Tabs>
           <TabList>
             <Tab id="Home">
-            Zuhause <img src={logo2} id="bielefeld_logo" width="20" height="20" alt="Bielefeld Logo"/>  </Tab>
-            <Tab id="Holiday">Schöner Urlaub <img src={logo4} id="iceland_logo" width="35" height="20" alt="Iceland Logo"/> </Tab>
-            <Tab className="Fav-Town react-tabs__tab react-tabs__tab--selected">Lieblingsstadt <img src={logo3} id="stockhol_logo" width="20" height="20" alt="Stockholm Logo"/> </Tab>
+            Zuhause   </Tab>
+            <Tab id="Holiday">Schöner Urlaub </Tab>
+            <Tab >Lieblingsstadt  </Tab>
           </TabList>
 
           <TabPanel>
@@ -35,7 +34,7 @@ function MyTabs () {
           </TabPanel>
           <TabPanel>
             <h2>
-               <img src={logo3} id="stockhol_logo" width="30" height="30" alt="Stockholm Logo"/>  
+               <img src={logo3} id="stockholm_logo" width="30" height="30" alt="Stockholm Logo"/>  
                Stockholm 
                 </h2>
           <MyMap lat={59.3275308} lng={18.1153209} /> 
